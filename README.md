@@ -39,7 +39,7 @@ script.js
 Codespaces のターミナルで次のコマンドを実行します。
 
 ```bash
-ruby -run -e httpd . -p 8000
+python3 -m http.server 8000
 ```
 
 そのあと、Codespaces の `PORTS` から `8000` をブラウザで開きます。
